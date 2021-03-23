@@ -1,7 +1,5 @@
 <?php
-#
 class EnlacesPaginas{
-
 
     public function enlacesPaginasModel($enLacesModeL){
 
@@ -12,10 +10,7 @@ class EnlacesPaginas{
         
             $module = "views/modules/".$enlacesModel.".php";
         }
-
         return $module; 
     }
 }
-
-
 ?>
